@@ -1,0 +1,239 @@
+:root {
+  --nav-color: #002b5b;
+  --nav-text: #fff;
+  --nav-hover: #ea5455;
+  --showcase-color: #e4dccf;
+  --secondary-color: #a4907c;
+  --dark-color: #8d7b68;
+  --light-color: #f1dec9;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+  overflow: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--nav-color);
+  color: var(--nav-text);
+  border: none;
+  border-radius: 5px;
+}
+/* Backgrounds and color buttons */
+
+.bg-primary,
+.btn-primary {
+  background-color: var(--showcase-color);
+  color: var(--nav-color);
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--nav-color);
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: var(--nav-color);
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: var(--nav-text);
+}
+.text-center {
+  text-align: center;
+}
+
+/* Text sizes */
+
+.lead {
+  font-size: 1.7rem;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+/* Margin */
+.my-1 {
+  margin: 1.6rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 2.5rem 0;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
+
+.my-5 {
+  margin: 3.5rem 0;
+}
+
+.m-1 {
+  margin: 1.6rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 2.5rem;
+}
+
+.m-4 {
+  margin: 3rem;
+}
+
+.m-5 {
+  margin: 3.5rem;
+}
+
+/* Padding */
+.py-1 {
+  padding: 1.6rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 2.5rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 3.5rem 0;
+}
+
+.p-1 {
+  padding: 1.6rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 2.5rem;
+}
+
+.p-4 {
+  padding: 3rem;
+}
+
+.p-5 {
+  padding: 3.5rem;
+}
+
+/* alert */
+
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: var(--nav-text);
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: var(--nav-text);
+}
+
+/* Text colors */
+
+.text-primary {
+  color: var(--showcase-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-light,
+.btn-light {
+  color: var(--light-color);
+}

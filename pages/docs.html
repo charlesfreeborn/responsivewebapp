@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive web app practice</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/assets/css/utilities.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <div class="navbar">
+      <div class="container flex">
+        <h1>CharliesCodage</h1>
+        <nav>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="/pages/docs.html">Docs</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Head section -->
+
+    <section class="docs-head bg-primary py-3">
+      <div class="container grid">
+        <div>
+          <h1 class="xl">Docs</h1>
+          <p class="lead">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voluptatibus aspernatur veritatis explicabo error illum? Fuga?
+          </p>
+        </div>
+        <img src="/assets/images/docs.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Docs Main -->
+    <section class="docs-main my-4">
+      <div class="container grid">
+        <div class="card bg-light p-3">
+          <h3 class="my-2">Essentials</h3>
+          <nav>
+            <ul>
+              <li><a href="#">Introduction</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Install</a></li>
+            </ul>
+          </nav>
+
+          <h3 class="my-2">Deployment</h3>
+          <nav>
+            <ul>
+              <li><a href="#">Setting up</a></li>
+              <li><a href="#">Using CLI</a></li>
+              <li><a href="#">Managine Resources</a></li>
+              <li><a href="#">Upgrade and Downgrade</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="card">
+          <h2>Introduction</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime ea
+            velit porro alias veniam hic perspiciatis, incidunt nam deleniti
+            dolore iste reprehenderit quis quod. Ratione blanditiis omnis nihil
+            repudiandae fugit!
+          </p>
+          <div class="alert alert-success">
+            <i class="fas fa-info"></i> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Architecto, repudiandae.
+          </div>
+
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ipsa
+            pariatur voluptas veritatis voluptatum distinctio quis cupiditate
+            consequatur dicta ad?
+          </p>
+          <a href="#" class="btn btn-primary">Install CLI</a>
+
+          <h3>Requirmenets</h3>
+          <ul>
+            <li>Lorem., lorem, linux</li>
+            <li>Lorem., lorem, linux</li>
+            <li>Lorem., lorem, linux</li>
+          </ul>
+
+          <h3>Install</h3>
+          <p>Mac (homebrew)</p>
+          <pre><code>$ brew install cli</code></pre>
+          <p>NPM</p>
+
+          <pre><code>$ npm install cli</code></pre>
+          <p>Yarn</p>
+          <pre><code>$ yarn install cli</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-3">
+        <div>
+          <h1>CharliesCodage</h1>
+          <p>Copyright &copy; Today - 2023</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="pages/features.html">Features</a></li>
+            <li><a href="pages/docs.html">Docs</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="#">
+            <i class="fab fa-twitter fa-3x"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin fa-3x"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github fa-3x"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
